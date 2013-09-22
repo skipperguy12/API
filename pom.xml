@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>tc.oc.projectares</groupId>
+    <groupId>me.skipperguy12.pmh</groupId>
     <artifactId>api</artifactId>
     <version>0.1.0-SNAPSHOT</version>
-    <name>ProjectAres API</name>
-    <description>Public-facing API for Project Ares Minecraft public servers</description>
+    <name>PMH API</name>
+    <description>API to interact with PMH plugin</description>
     <licenses>
         <license>
             <name>MIT License</name>
@@ -13,11 +13,15 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:ProjectAres/API.git</connection>
-        <developerConnection>scm:git:git@github.com:ProjectAres/API.git</developerConnection>
-        <url>https://github.com/ProjectAres/API</url>
+        <connection>scm:git:git@github.com:skipperguy12/API.git</connection>
+        <developerConnection>scm:git:git@github.com:skipperguy12/API.git</developerConnection>
+        <url>https://github.com/skipperguy12/API</url>
     </scm>
     <repositories>
+		<repository>
+			<id>repo.oc.tc</id>
+			<url>http://repo.oc.tc/content/repositories/releases/</url>
+		</repository>
         <repository>
             <id>bukkit-repo</id>
             <url>http://repo.bukkit.org/content/groups/public</url>
